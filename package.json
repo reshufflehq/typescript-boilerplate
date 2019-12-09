@@ -2,7 +2,21 @@
   "name": "ts-boilerplate",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
+  "keywords": [
+    "reshuffle",
+    "react",
+    "blank",
+    "start",
+    "typescript",
+    "fullstack"
+  ],
   "dependencies": {
+    "@reshuffle/code-transform": "^0.1.0",
+    "@reshuffle/db": "^0.5.5",
+    "@reshuffle/fetch-runtime": "^0.1.0",
+    "@reshuffle/local-proxy": "^0.3.4",
+    "@reshuffle/server-function": "^0.2.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -24,6 +38,9 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "stylelint": {
+    "extends": "stylelint-config-standard"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -35,5 +52,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "singleQuote": true,
+    "jsxSingleQuote": true
   }
 }
