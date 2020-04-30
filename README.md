@@ -1,3 +1,5 @@
+# We have terminated the backend for this project.  Old Reshuffle projects can no longer be deployed.
+
 This is a Reshuffle template app which demonstrates basic usage of Reshuffle with a TypeScript frontend.
 
 > Note: Reshuffle is built on top of Create React App
